@@ -31,14 +31,14 @@ namespace Lab3
             }
 
             var image = (Bitmap)originalPictureBox.Image.Clone();
-
+            int.TryParse(matrixSizeTextBox.Text, out var medianFilterMatrixSize);
             filteredPictureBox.Image = filtersComboBox.SelectedIndex switch
             {
                 1 => image.ConvolutionFilter(Matrices.EdgeDetection3x3),
                 2 => image.ConvolutionFilter(Matrices.EdgeDetection5x5),
                 3 => image.ConvolutionFilter(Matrices.BoxBlur),
                 4 => image.ConvolutionFilter(Matrices.GaussianBlur),
-                5 => image.MedianFilter(5),
+                5 => image.MedianFilter(medianFilterMatrixSize),
                 6 => image.ConvolutionFilter(Matrices.Sobel3x3Horizontal, Matrices.Sobel3x3Vertical),
                 _ => image.ConvolutionFilter(Matrices.Identity)
             };
