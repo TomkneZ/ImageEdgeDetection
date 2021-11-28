@@ -10,4 +10,6 @@ This repo contains my university task for digital signal processing. The task is
 | Sobel          | Horizontal<br>{{-1, 0, 1},<br>{-2, 0, 2},<br>{-1, 0, 1}}<br>Vertical<br>{{1, 2, 1},<br>{0, 0, 0},<br>{-1, -2, -1}}|![image](https://user-images.githubusercontent.com/61329729/143782275-b234e5f1-c93d-4a25-abda-ba0d0f708c9c.png)|
 | Box blur       | {{1 , 1, 1}<br>{1, 1, 1}<br> {1, 1, 1}}<br>Normalized by 9 | ![image](https://user-images.githubusercontent.com/61329729/143782290-5cffb856-7251-43cb-b04a-43da5ec48f52.png)  |
 | Gaussian blur  | {{1, 2, 1},<br>{2, 4, 2},<br>{1, 2, 1}}<br>Normalized by 16| ![image](https://user-images.githubusercontent.com/61329729/143782311-38b05a0c-6870-42b7-b789-6837e154222f.png) |
-| Median filter  | Content Cell  | Content Cell  |
+| Median filter 3x3 |   | ![image](https://user-images.githubusercontent.com/61329729/143782764-a6b379bc-15db-440c-b094-4b39ac4899e9.png)  |
+| Median filter 5x5 |   | ![image](https://user-images.githubusercontent.com/61329729/143782739-74a98f84-c6e2-426b-b91a-c0fd86d623ff.png)  |
+| Median filter 7x7 |   | ![image](https://user-images.githubusercontent.com/61329729/143782801-13c07b9f-5583-4799-a909-c4ab950cad6e.png)  |
