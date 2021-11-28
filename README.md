@@ -4,7 +4,7 @@ This repo contains my university task for digital signal processing. The task is
 ## Working Results
 | Operation      |    Kernel        | Image Result  |
 | -------------  | -------------    | ------------- |
-| Identity       | {{0.0, 0.0, 0.0},{0.0, 1.0, 0.0},{0.0, 0.0, 0.0}}|Content Cell|
+| Identity       | {{0.0, 0.0, 0.0},<br>{0.0, 1.0, 0.0},<br>{0.0, 0.0, 0.0}}|Content Cell|
 | Laplacian 3x3  | Content Cell  | Content Cell  |
 | Laplacian 5x5  | Content Cell  | Content Cell  |
 | Sobel          | Content Cell  | Content Cell  |
